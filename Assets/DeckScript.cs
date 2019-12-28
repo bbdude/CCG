@@ -52,7 +52,7 @@ public class DeckScript : MonoBehaviour
             if (cards.Count > 0)
             {
                 //draw
-                Debug.Log("You draw a card");
+                //Debug.Log("You draw a card");
                 if(hand.AddCard(cards[0]))
                 {
                     //full hand
@@ -77,7 +77,7 @@ public class DeckScript : MonoBehaviour
             if (cards.Count > 0)
             {
                 //draw
-                Debug.Log("You draw a card");
+                //Debug.Log("You draw a card");
                 if (!hand.AddCard(cards[0]))
                 {
                     //full hand

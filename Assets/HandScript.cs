@@ -38,7 +38,7 @@ public class HandScript : MonoBehaviour
     {
         if (cards.Count <= 4)
         {
-            Debug.Log("Hand added card");
+            //Debug.Log("Hand added card");
             cardsInHand++;
             newCard.transform.localPosition = new Vector3(cardPos[cardsInHand - 1], this.transform.localPosition.y, newCard.transform.localPosition.z);
             newCard.transform.gameObject.SetActive(true);

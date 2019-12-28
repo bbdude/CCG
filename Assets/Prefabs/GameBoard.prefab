@@ -110,6 +110,8 @@ MonoBehaviour:
     type: 3}
   handPrefab: {fileID: 7015007297252342898, guid: 8388ac8bbdae4644b8f3883c7099e758,
     type: 3}
+  framePrefab: {fileID: 3250237629343266967, guid: 3ec6a319451b82d4094cdd5b8749a881,
+    type: 3}
   pDeckObj: {fileID: 0}
   eDeckObj: {fileID: 0}
   pDeck: {fileID: 0}
@@ -117,5 +119,12 @@ MonoBehaviour:
   pHand: {fileID: 0}
   eHand: {fileID: 0}
   initPhaseCards: []
+  pCardSlots: []
+  eCardSlots: []
   currentPhase: 0
   playerTurn: 1
+  turns: 0
+  timer: 0
+  holdingCard: 0
+  heldCard: {fileID: 0}
+  enlargedCard: {fileID: 0}

@@ -17,26 +17,4 @@ public class CardScript : MonoBehaviour
     void Update()
     {
     }
-
-    public void Examine()
-    {
-
-    }
-
-    public void Enlarge()
-    {
-        origSize = this.transform.localScale;
-        origPos = this.transform.position;
-
-        this.transform.position = new Vector3(0, 0, 0);
-        this.transform.localScale = origSize + new Vector3(2, 2, 2);
-        this.transform.tag = "EnlargedCard";
-    }
-
-    public void Shrink()
-    {
-        this.transform.position = origPos;
-        this.transform.localScale = origSize;
-        this.transform.tag = "Card";
-    }
 }
